@@ -1,0 +1,10 @@
+[29-May-2016 08:00:54 UTC] PHP Fatal error:  Class 'DB' not found in /home/tilesandbathroom/public_html/connection.php on line 3
+[02-Jun-2016 18:02:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tilesandbathroom.category_details_details' doesn't exist' in /home/tilesandbathroom/public_html/view_report.php:467
+Stack trace:
+#0 /home/tilesandbathroom/public_html/view_report.php(467): PDOStatement->execute()
+#1 {main}
+  thrown in /home/tilesandbathroom/public_html/view_report.php on line 467
+[03-Jun-2016 23:16:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tilesandbathroom/public_html/add_stock.php:1) in /home/tilesandbathroom/public_html/add_stock.php on line 260
+[03-Jun-2016 23:18:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tilesandbathroom/public_html/add_stock.php:1) in /home/tilesandbathroom/public_html/add_stock.php on line 260
+[28-Jun-2016 23:14:28 UTC] PHP Warning:  Division by zero in /home/tilesandbathroom/public_html/sales_report_category.php on line 107
+[14-Jul-2016 18:57:58 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tilesandbathroom/public_html/view_purchase.php on line 468
